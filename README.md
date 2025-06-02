@@ -51,39 +51,3 @@ Retail sales remained surprisingly strong during 2020–2021.
 
 SARIMA provided reasonably accurate forecasts, especially in non-holiday months.
 
-📂 File Structure
-bash
-Copy
-Edit
-📁 us-retail-sales-forecasting/
-├── us_retail_sales.csv            # Raw retail sales data
-├── us_retail_sales_analysis.ipynb # Jupyter notebook with EDA + forecasting
-├── figures/                       # Graphs and plots generated
-└── README.md                      # Project summary and instructions
-✅ How to Run
-Clone this repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/us-retail-sales-forecasting.git
-cd us-retail-sales-forecasting
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install pandas matplotlib statsmodels scikit-learn
-Open and run the Jupyter Notebook:
-
-bash
-Copy
-Edit
-jupyter notebook us_retail_sales_analysis.ipynb
-📌 Future Improvements
-Incorporate economic indicators (e.g., CPI, employment rate)
-
-Explore deep learning models like LSTM for better accuracy
-
-Add interactive dashboards using Plotly or Streamlit
-
